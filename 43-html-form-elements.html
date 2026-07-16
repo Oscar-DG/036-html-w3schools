@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Lección 43 - HTML Form Elements</title>
+
+</head>
+
+<body>
+
+    <h1>Elementos de un Formulario HTML</h1>
+
+    <form action="#">
+
+        <fieldset>
+
+            <legend>Información Personal</legend>
+
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre"><br><br>
+
+            <label for="pais">País:</label><br>
+            <select id="pais" name="pais">
+                <option>Guatemala</option>
+                <option>México</option>
+                <option>El Salvador</option>
+                <option>Honduras</option>
+            </select>
+
+            <br><br>
+
+            <label for="comentario">Comentario:</label><br>
+            <textarea id="comentario" rows="4" cols="30"></textarea>
+
+            <br><br>
+
+            <label for="navegador">Navegador:</label><br>
+            <input list="navegadores" id="navegador">
+
+            <datalist id="navegadores">
+                <option value="Chrome">
+                <option value="Edge">
+                <option value="Firefox">
+                <option value="Opera">
+            </datalist>
+
+            <br><br>
+
+            <button type="button">
+                Botón
+            </button>
+
+            <input type="submit" value="Enviar">
+
+        </fieldset>
+
+    </form>
+
+</body>
+
+</html>
