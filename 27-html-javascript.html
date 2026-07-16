@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <title>Lección 27 - HTML JavaScript</title>
+
+</head>
+
+<body>
+
+    <h1>HTML y JavaScript</h1>
+
+    <p id="mensaje">Presiona el botón para cambiar este texto.</p>
+
+    <button onclick="cambiarTexto()">
+        Cambiar Texto
+    </button>
+
+    <script>
+
+        function cambiarTexto() {
+
+            document.getElementById("mensaje").innerHTML = "¡Hola! Este texto fue cambiado con JavaScript.";
+
+        }
+
+    </script>
+
+</body>
+
+</html>
